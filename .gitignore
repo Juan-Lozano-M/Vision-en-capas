@@ -5,4 +5,5 @@ venv/
 .pytest_cache/
 .streamlit/secrets.toml
 qa_report/
+~$*
 
