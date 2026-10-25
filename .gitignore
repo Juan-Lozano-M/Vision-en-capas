@@ -6,6 +6,7 @@ venv/
 .streamlit/secrets.toml
 qa_report/
 ~$*
+*.docx
 assets/screenshots/app_overview.png
 assets/screenshots/app_flow.png
 assets/screenshots/app_result_real.png
