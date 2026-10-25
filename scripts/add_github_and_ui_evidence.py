@@ -69,8 +69,8 @@ def main():
     p = doc.add_paragraph("Las siguientes capturas fueron tomadas de la aplicación Streamlit ejecutándose en el entorno local del proyecto. La primera muestra la interfaz y el componente de carga; la segunda muestra la vista general del prototipo con su flujo de análisis.")
     p.paragraph_format.space_after = Pt(8)
 
-    add_image(doc, ROOT / "assets" / "screenshots" / "app_real.png", "Figura 6. Captura real de la interfaz Streamlit y del componente de carga.")
-    add_image(doc, ROOT / "assets" / "screenshots" / "app_real_wide.png", "Figura 7. Captura real de la página durante la ejecución del prototipo en una vista amplia.")
+    add_image(doc, ROOT / "assets" / "screenshots" / "app_clean_overview.png", "Figura 6. Captura real de la interfaz Streamlit con el componente de carga visible.")
+    add_image(doc, ROOT / "assets" / "screenshots" / "app_real_wide.png", "Figura 7. Captura real de la aplicación en una vista amplia durante su ejecución.")
 
     doc.save(DOCX)
     print(DOCX)
